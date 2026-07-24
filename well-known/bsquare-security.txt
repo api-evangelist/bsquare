@@ -1,0 +1,2 @@
+Contact: https://www.bsquare.com/vulnerability-reporting
+Policy: https://www.bsquare.com/vulnerability-reporting

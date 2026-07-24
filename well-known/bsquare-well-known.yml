@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://bsquare.com/.well-known/*
+host: https://bsquare.com
+note: >-
+  bsquare.com 301-redirects to www.kontron-americas.com (Bsquare was acquired by
+  Kontron). The security.txt is served for the domain; its Contact/Policy point
+  at the Bsquare-branded vulnerability-reporting page.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: bsquare-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
