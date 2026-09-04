@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://bsquare.com', status: 301, note: 'declared website redirects to https://www.kontron.com/en/products-solutions/windows-iot-licensing — a different registrable domain (bsquare.com -> kontron.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bsquare.png
 name: Bsquare
 description: 'Bsquare is an IoT and edge-software company known for Windows IoT device licensing, OS
